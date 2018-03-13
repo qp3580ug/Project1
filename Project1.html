@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="Project1Style.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="Project1Java.js"></script>
+
+</head>
+
+<body>
+  <p>
+    <button type="button" class="btn btn-default btn-lg" id="buttonStart">
+      <span class="Start">Start</span>
+    </button>
+    <span class="black1">t  </span>
+    <span class="black2">-</span>
+    <span class="black3">-</span>
+    <span class="black4">-</span>
+    <span class="black5">-</span>
+    <span class="black6">-</span>
+    <span class="black7">-</span>
+    <input type="radio" class="radio1"></input>
+    <span class="glyphicon glyphicon-volume-off" id="volumeOff"></span>
+  </p>
+  <p>
+    <div class="progress">
+      <div class="progress-bar progress-bar-danger progress-bar-striped" id="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+      </div>
+    </div>
+  </p>
+  <p>
+    <div class="alert alert-danger" id="alert">
+      Uh Oh! You're volume is off. Click start maybe.
+    </div>
+  </p>
+  <p>
+    <button type="button" class="btn btn-default btn-lg" id="buttonEnd">
+      <span class="Finish">Finish</span>
+    </button>
+  </p>
+</body>
+</html>
